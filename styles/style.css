@@ -143,15 +143,27 @@ hr {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 10px;
   }
+  .course {
+    padding: 10px;
+  }
 }
 @media screen and (min-width: 689px) and (max-width: 992px) {
   .container {
     width: 100%;
+    padding: 0;
   }
   .players {
     grid-template-columns: repeat(2, 1fr);
   }
   .player {
+    justify-content: center;
+  }
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 }
